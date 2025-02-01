@@ -1,3 +1,9 @@
+# ARCHIVED
+I used to create Minecraft clients to learn Java and because those were trending at some point.
+When Minecraft switched from using Mojang accounts to Microsoft accounts, you needed to make your own auth implementation because it was pretty new back then.
+*Don't forget the fact that Mojang accounts were randomly selected to migrate so not everyone had a Microsoft account*
+This code hasn't been tested in ages but should be mostly working and feel free to do whatever you want with it! (I'm still using a good amount of it in another project of mine.)
+
 # MCMicrosoftAuth
 
 **Result**: https://gyazo.com/29869b4e1438e89da8309b1843b3a118
@@ -14,8 +20,8 @@ This is a pretty simple snippet which allows you to connect to your Minecraft ac
   
 How to use it
 - Just drag and drop the folder to your desired location (Of course because some people might ask this, yes in your MCP project @_@)
+- Make sure you have JavaFX set up as well, otherwise you'll get a ClassNotFoundException: JFXPanel
 - To login just do:
-
 ```java
 MicrosoftAuthentication.getInstance().loginWithPopUpWindow();
 ```
